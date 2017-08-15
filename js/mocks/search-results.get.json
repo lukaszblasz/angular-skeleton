@@ -1,0 +1,19 @@
+{
+	"items": [
+		{
+			"id": "/images/image1",
+			"title": "Test",
+			"link": "/path"
+		},
+		{
+			"id": "/images/image2",
+			"title": "Test 2",
+			"link": "/path2"
+		},
+		{
+			"id": "/images/image3",
+			"title": "Test 3",
+			"link": "/path3"
+		}
+	]
+}

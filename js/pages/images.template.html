@@ -1,0 +1,12 @@
+<div class="search-box-container">
+    <search-box-component class="search-box-component"></search-box-component>
+    {{$ctrl.searchText}}
+</div>
+<div class="search-results-container">
+    <div class="search-results-container-content">
+           <h4>{{$ctrl.resultsHeader}}</h4>
+        <results-component class="search-results-component" data-items="$ctrl.items"></results-component>
+    </div>
+</div>
+
+

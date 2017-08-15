@@ -1,0 +1,17 @@
+{
+    "rules": {
+        "string-quotes": "double",
+        "length-zero-no-unit": true,
+        "unit-case": "lower",
+        "declaration-block-semicolon-newline-after": "always",
+        "block-no-empty": true,
+        "block-no-single-line": true,
+        "selector-no-empty": true,
+        "selector-list-comma-newline-after": "always",
+        "indentation": 4,
+        "max-empty-lines": 1,
+        "no-duplicate-selectors": true,
+        "no-extra-semicolons": true
+
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        // enforce the consistent use of either backticks, double, or single quotes
+        "quotes": ["error", "single"],
+        // enforce consistent indentation
+        "indent": ["error", 4],
+        // disallow bitwise operators
+        "no-bitwise": "error",
+        // disallow the use of console
+        "no-console": "error",
+        // disallow empty block statements
+        "no-empty": "error",
+        // enforce consistent brace style for all control statements
+        "curly": "error",
+        // require the use of === and !==
+        "eqeqeq": "error",
+        // disallow the use of eval()
+        "no-eval": "error",
+        // disallow multiple spaces
+        "no-multi-spaces": "error",
+        // enforce camelcase naming convention
+        "camelcase": "error",
+        // enforce consistent spacing before and after commas
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        // enforce consistent comma style
+        "comma-style": ["error", "last"]
+    }
+}

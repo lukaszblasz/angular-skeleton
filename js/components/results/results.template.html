@@ -1,0 +1,8 @@
+<div class="search-results-list-container">
+    <ul class="search-results-list">
+    <h4>{{$ctrl.resultsHeader}}:</h4>
+        <li class="search-results-item" data-ng-repeat="item in $ctrl.items" data-ng-init="$last && $ctrl.lastItemRendered()">
+            <image-tile-component class="image-tile" data-details="item"></image-tile-component>
+        </li>
+    </ul>
+</div>
